@@ -1,0 +1,20 @@
+Jenkins Intro:
+==============
+- Jenkins is an Open-source automation server that is used to automate all sorts of tasks related to building, testing and deliverying,
+  or even deploying the software
+- Automates the SDLC, so errors can be detected at a very early stage of the development.
+- Entirely written in Java, so portable to all major platforms. Need Java 8+, Recommended Java 11
+- Can run as a servlet inside Tomcat, Container or as Standalone application.
+
+- Few of the features of Jenkins that make it the first choice for a user are:
+	1. Open Source
+	2. Easy Installation
+	3. Plugins. ~2000	
+	4. Easy Configuration and Extensible
+	5. Active Community
+	6. Master-Slave architecture to manage distributed builds.
+	7. Inbuilt Jetty Webserver. Can be deployed in Tomcat.
+
+
+
+
