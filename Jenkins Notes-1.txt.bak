@@ -20,10 +20,5 @@ Jenkins History:
 - Jenkins was originally developed under the name Hudson back in 2004 by the organization sun microsystems.
 - Slowly Hudson started becoming populat with other companies and other people.
 - When sun microsystems were brought over by oracle they kept the project but there were conflicts between the community supporting 
-  hudson and oracle. so it was decided that the tool would be split into two; something oracle could call its
-  own, hudson and Jenkins which was to be completely community driven project.
-  
-- Though both of them originally shared similar source trees, the tools are now quite different and 
-  Jenkins has become more popular than ever now. it is now one of the most used CI/CD tools in the industry out there.
-  
+  hudson and oracle. so it was decided that the tool would be split into two; something oracle
 
