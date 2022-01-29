@@ -57,3 +57,30 @@ Jenkins Plugins:
 	- Amazon EC2 Plugin
 	- Test Result Analyzer
 	- Blue Ocean
+
+Jenkins Master-Slave:
+=====================
+A Standalone jenkins instance can grow fairly quickly into a disk-munching, CPU-eating monster.
+To prevent this from happening, we can scale Jenkins by implementing a slave node architecture, which can help us 
+offload some of the responsibilities of the master Jenkins instance.
+
+A Jenkins slave node is simply a device configured to act as an job executor on behalf of the master.
+The Jenkins master simply represents the base installation of Jenkins. 
+The master will continue to perform basic operations and serve the user interface, while the slaves do the heavy
+lifting.
+
+Jenkins Master:
+- Holds all key configurations
+- Acts like a controller or an orchestrator
+- Scheduling and Monitoring build jobs
+- dispatching build to the slaves.
+- monitor the slaves (online and offline)
+- Recording and presenting the build results.
+- A Master instance of jenkins can also execute build jobs directly.
+
+Jenkins Slave:
+- A slave is a Java executable that runs on a remote machine
+- Listens to requests from the Master and executes build jobs dispatched by the Master.
+- slaves can run on a variety of operating systems.
+- you can configure a project to always run on a particular slave machine or a particular type of slave machine,
+or simply let jenkins pick the next available slave.

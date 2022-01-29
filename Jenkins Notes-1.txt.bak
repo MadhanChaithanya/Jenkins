@@ -38,3 +38,22 @@ What Jenkins can do?
 - Integration with third party tools like Nexus, SonarQube etc
 - Extension the functionality by using various plugins (~2000)
 
+Jenkins Plugins:
+================
+- Jenkins has plugin repository where you can download .hpi file and upload it your server.
+- Upload at Manage Jenkins -> Manage Plugins -> Advanced.
+- or copy tp plugins directory of Jenkins Home(/var/lib/jenkins)
+
+		https://plugins.jenkins.io/
+		
+	- Github Plugins
+	- Maven and Junit Plugin
+	- Deploy to container Plugin
+	- Build Pipeline
+	- Docker Plugin
+	- Jira Plugin
+	- Mailer Plugin
+	- Slack Notification Plugin
+	- Amazon EC2 Plugin
+	- Test Result Analyzer
+	- Blue Ocean
