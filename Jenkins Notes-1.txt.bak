@@ -20,5 +20,21 @@ Jenkins History:
 - Jenkins was originally developed under the name Hudson back in 2004 by the organization sun microsystems.
 - Slowly Hudson started becoming populat with other companies and other people.
 - When sun microsystems were brought over by oracle they kept the project but there were conflicts between the community supporting 
-  hudson and oracle. so it was decided that the tool would be split into two; something oracle
+  hudson and oracle. so it was decided that the tool would be split into two; something oracle could call its
+  own, hudson and Jenkins which was to be completely community driven project.
+  
+- Though both of them originally shared similar source trees, the tools are now quite different and 
+  Jenkins has become more popular than ever now. it is now one of the most used CI/CD tools in the industry out there.
+  
+What Jenkins can do?
+====================
+- Clone your source code from VCS.
+- Build your application using build tools such as Gradle, Maven etc.
+- Automation testing using test frameworks such as Selenium, Junit, Pytest, Robot etc.
+- Automated deployments to various environments
+- Role based access control to various jobs and pipelines.
+- Execute scripts using windows terminal and linux shell
+- Post build actions such as Sending slack notfications, emails, printing test reports etc.
+- Integration with third party tools like Nexus, SonarQube etc
+- Extension the functionality by using various plugins (~2000)
 
